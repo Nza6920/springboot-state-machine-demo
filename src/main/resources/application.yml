@@ -1,0 +1,9 @@
+server:
+  port: 7016
+
+# 配置日志
+logging:
+  level:
+    root: warn
+    # 单独配置包的日志级别
+    com.niu.springboot: info
